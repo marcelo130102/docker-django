@@ -3,17 +3,17 @@
 ## create build
 
 ```bash
-docker build . -t linder3hs/docker-django-test
+docker build . -t django-app
 ```
 
 ## run container
 
 ```bash
-docker run -p 8000:8000 linder3hs/docker-django-test
+docker run -p 8000:8000 django-app
 ```
 
 ## run container in background
 
 ```bash
-docker run -d -p 8000:8000 linder3hs/docker-django-test
+docker run -d -p 8000:8000 django-app
 ```
